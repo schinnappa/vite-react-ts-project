@@ -1,8 +1,9 @@
 import './App.css'
+import navDrawer from "./components/scaffold/navDrawer.tsx";
 
 function App() {
     return (
-        <div>Lets get started!</div>
+        navDrawer()
     );
 }
 
